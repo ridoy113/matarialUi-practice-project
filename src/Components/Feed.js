@@ -9,7 +9,7 @@ const useStyle = makeStyles((theme) => ({
     }
 }))
 
-const Leftbar = () => {
+const Feed = () => {
     const classes = useStyle()
     return (
         <div>
@@ -18,4 +18,4 @@ const Leftbar = () => {
     );
 }
 
-export default Leftbar;
+export default Feed;

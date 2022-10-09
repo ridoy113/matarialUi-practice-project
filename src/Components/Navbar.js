@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, makeStyles, Toolbar } from '@material-ui/core';
+import { AppBar, makeStyles, Toolbar, Typography } from '@material-ui/core';
 
 
 
@@ -13,7 +13,11 @@ const Navbar = () => {
     const classes = useStyle()
     return (
         <AppBar>
-            <Toolbar></Toolbar>
+            <Toolbar>
+                <Typography variant='h6'>
+                    MaterialUi Poj.
+                </Typography>
+            </Toolbar>
         </AppBar>
     );
 }
